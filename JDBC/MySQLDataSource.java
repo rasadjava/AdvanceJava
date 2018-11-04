@@ -9,7 +9,9 @@ import java.sql.Statement;
 public class MySQLDataSource {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		System.out.println("##TejaStart##");
 		MySQLDataSource.mySQLDatabaseConnection();
+		System.out.println("##TejaEnd##");
 	}
 	
 	public static void mySQLDatabaseConnection() throws ClassNotFoundException, SQLException {
